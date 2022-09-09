@@ -1,0 +1,7 @@
+Fri 11:48:24 13/08/2021 [restartedMain] WARN  [startServer] - Unable to start LiveReload server
+Fri 11:48:30 13/08/2021 [restartedMain] WARN  [openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Fri 11:48:48 13/08/2021 [restartedMain] WARN  [logWarning] - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+Fri 14:44:14 13/08/2021 [HikariPool-1 housekeeper] WARN  [run] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m6s283ms97µs900ns).
+Fri 19:52:11 13/08/2021 [HikariPool-1 housekeeper] WARN  [run] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h26s780ms732µs700ns).
+Fri 21:24:16 13/08/2021 [HikariPool-1 housekeeper] WARN  [run] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h32m28s390ms594µs100ns).
+Fri 21:58:53 13/08/2021 [RMI TCP Connection(283)-127.0.0.1] WARN  [destroy] - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
